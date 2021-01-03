@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  testenv:
+    build: .
+    container_name: testenv
+    volumes:
+      - ./python:/workdir
+    tty: true 
